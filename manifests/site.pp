@@ -13,7 +13,7 @@ node default {
   include epel
   include bootstrap
   include localrepo
-  class { 'training'
+  class { 'training':
     git_branch => 'master',
   }
 }
