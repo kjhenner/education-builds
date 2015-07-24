@@ -17,7 +17,8 @@ $script = <<SCRIPT
 		gem install rake json --no-rdoc --no-ri
 
 		cd /usr/src/
-		git clone https://github.com/puppetlabs/puppetlabs-training-bootstrap
+		git clone https://github.com/kjhenner/puppetlabs-training-bootstrap
+    git checkout -b nginx
 		cd /usr/src/puppetlabs-training-bootstrap/
 
 		rake VMTYPE
