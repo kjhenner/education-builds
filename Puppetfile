@@ -19,7 +19,8 @@ mod 'bootstrap',
   :git => 'https://github.com/puppetlabs/pltraining-bootstrap'
 
 mod 'learning',
-  :git => 'https://github.com/puppetlabs/pltraining-learning'
+  :git => 'https://github.com/kjhenner/pltraining-learning'
+  :ref => 'setup_pypi-server'
 
 mod 'lms',
   :git => 'https://github.com/puppetlabs/pltraining-lms'
@@ -68,3 +69,6 @@ mod 'garethr/docker'
 mod 'puppetlabs/apt'
 
 mod 'jfryman/nginx', '0.2.7'
+
+mod 'maestrodev/wget'
+mod 'ajcrowe/supervisord'
