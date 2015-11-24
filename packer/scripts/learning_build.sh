@@ -7,7 +7,7 @@ sudo mv /opt/lvmguide/quest_tool/.testing /root
 
 
 cd /usr/src/
-git clone https://github.com/puppetlabs/puppetlabs-training-bootstrap
+git clone -b lvm-2015.3 https://github.com/kjhenner/puppetlabs-training-bootstrap
 cd /usr/src/puppetlabs-training-bootstrap/
 
 sudo rake learning
