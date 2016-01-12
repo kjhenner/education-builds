@@ -19,7 +19,7 @@ mod 'bootstrap',
   :git => 'https://github.com/puppetlabs/pltraining-bootstrap'
 
 mod 'learning',
-  :git => 'https://github.com/puppetlabs/pltraining-learning',
+  :git => 'https://github.com/kjhenner/pltraining-learning',
   :ref => 'render-with-gitbook'
 
 mod 'lms',
