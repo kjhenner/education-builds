@@ -1,5 +1,5 @@
 cd /usr/src/
-git clone https://github.com/puppetlabs/puppetlabs-training-bootstrap
+git clone -b gitbook_refactor https://github.com/kjhenner/puppetlabs-training-bootstrap
 cd /usr/src/puppetlabs-training-bootstrap/
 
 rake learning
