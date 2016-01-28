@@ -38,7 +38,7 @@ mod 'pltraining/rbac', '0.0.4'
 #  :git => 'https://github.com/puppetlabs/pltraining-rbac'
 
 mod 'userprefs',
-  :git => 'https://github.com/puppetlabs/pltraining-userprefs',
+  :git => 'https://github.com/kjhenner/pltraining-userprefs',
   :ref => 'quest-tool-refactor'
 
 mod 'pltraining/dirtree'
