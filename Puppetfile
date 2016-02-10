@@ -16,7 +16,8 @@ moduledir './modules/'
 
 
 mod 'bootstrap', 
-  :git => 'https://github.com/puppetlabs/pltraining-bootstrap'
+  :git => 'https://github.com/kjhenner/pltraining-bootstrap',
+  :ref => 'the-case-of-the-timed-out-shutdown'
 
 mod 'learning',
   :git => 'https://github.com/puppetlabs/pltraining-learning'
