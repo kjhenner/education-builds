@@ -9,6 +9,7 @@ else
   mv /etc/sysconfig/network-scripts/ifcfg-ens* /etc/sysconfig/network-scripts/ifcfg-$INTERFACE
   sed -i "s/ens[0-9]\{2\}/$INTERFACE/" /etc/sysconfig/network-scripts/ifcfg=$INTERFACE
 fi
+puppet agent -t
 rm -rf /dev/.udev/
 
 yum clean all -y
