@@ -30,3 +30,8 @@ rm -rf /home/vagrant/linux.iso
 rm -rf /training
 
 yum clean all
+
+# Prevent VirtualBox CPU issue by disabling APIC
+sed -e 's/\tkernel.*/& noapic/' /boot/grub/grub.conf > /tmp/new_grub.conf
+mv /boot/grub/grub.conf /boot/grub/grub.conf.bak
+mv /tmp/new_grub.conf /boot/grub/grub.conf
